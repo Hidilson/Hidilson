@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personalização | Convites Digitais Express</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">Convites Digitais Express</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="modelos.html">Modelos</a>
+        <a href="personalizacao.html">Personalização</a>
+        <a href="pagamento.html">Pagamento</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container grid cols-2">
+      <div>
+        <h1>Personalize o seu convite</h1>
+        <p>Preencha os dados principais do evento para que a nossa equipa finalize o design com cuidado profissional.</p>
+        <form class="form">
+          <div class="form-group">
+            <label for="tipo-evento">Tipo de evento</label>
+            <select id="tipo-evento" name="tipo-evento">
+              <option>Casamento</option>
+              <option>Aniversário</option>
+              <option>Batizado</option>
+              <option>Evento empresarial</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="nomes">Nome(s) principal(is)</label>
+            <input id="nomes" name="nomes" type="text" placeholder="Ex: Ana & Carlos" />
+          </div>
+          <div class="form-group">
+            <label for="data">Data do evento</label>
+            <input id="data" name="data" type="date" />
+          </div>
+          <div class="form-group">
+            <label for="hora">Hora</label>
+            <input id="hora" name="hora" type="time" />
+          </div>
+          <div class="form-group">
+            <label for="local">Local</label>
+            <input id="local" name="local" type="text" placeholder="Ex: Salão Imperial, Maputo" />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem adicional (opcional)</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Inclua um texto especial para os convidados."></textarea>
+          </div>
+          <div class="form-group">
+            <label for="foto">Upload de foto (opcional)</label>
+            <input id="foto" name="foto" type="file" />
+          </div>
+          <a class="cta-button" href="pagamento.html">Continuar para pagamento</a>
+        </form>
+      </div>
+      <aside class="card">
+        <h2>Detalhes importantes</h2>
+        <p>O design final será ajustado profissionalmente para garantir qualidade e harmonia visual.</p>
+        <div class="notice">
+          Após enviar os dados, a nossa equipa poderá entrar em contacto caso seja necessário algum ajuste adicional.
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Dúvidas? Estamos disponíveis no WhatsApp de segunda a sábado.</p>
+    </div>
+  </footer>
+</body>
+</html>
